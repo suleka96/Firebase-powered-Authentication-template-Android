@@ -36,17 +36,6 @@
             />
 
         <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="nav"
-            android:text="Sign in"
-            android:layout_marginTop="16dp"
-            android:textColor="@color/colorAccent"
-            android:background="@color/colorPrimaryDark"
-            android:layout_gravity="right"/>
-
-        <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

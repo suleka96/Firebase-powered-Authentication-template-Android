@@ -46,12 +46,20 @@
             android:background="@color/colorPrimaryDark"
             android:layout_gravity="right"/>
 
+        <TextView
+            android:id="@+id/text_view_id"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="don't have an account?"
+            android:layout_gravity="right"
+            android:textColor="@color/colorAccent"/>
+
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="nav"
-            android:text="Sign up"
+            android:text="Sign up here"
             android:layout_marginTop="16dp"
             android:textColor="@color/colorAccent"
             android:background="@color/colorPrimaryDark"
