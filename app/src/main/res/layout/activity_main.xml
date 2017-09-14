@@ -1,0 +1,62 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType = "centerCrop"
+        android:src="@mipmap/back2" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:layout_marginTop="75dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:paddingTop="16dp"
+            android:hint="Username"
+            android:id="@+id/txt1"
+
+            />
+        <EditText
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:hint="Password"
+            android:paddingTop="16dp"
+
+            />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nav"
+            android:text="Sign in"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_gravity="right"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nav"
+            android:text="Sign up"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+
+</FrameLayout>
