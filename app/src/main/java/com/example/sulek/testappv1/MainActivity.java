@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
     private EditText mpassword;
     private EditText musername;
     private Button mbutton;
-    private Button signup;
     private String id;
     private FirebaseAuth userauth;
     DatabaseReference mRootRef = FirebaseDatabase.getInstance().getReference();
