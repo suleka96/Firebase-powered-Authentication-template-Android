@@ -1,6 +1,6 @@
-# Firebase-powered-Authentication-template-Android
-This is a template that contains: 
-a loader screen, a login screen, a sign-up screen and also 'forgot password' services. 
-The authentication methods used are: email and password, google authentication and facebook authentication.
-This is developed for Android using Firebase services as a template that can be used for future projects.
--Suleka-
+# Auth boilerplate for Android powered by Firebase Auth
+
+### This boilerplate contains: A preloader screen, a login screen, a register screen and password reset services. 
+
+The authentication methods used are: Email and Password, Google Authentication and Facebook Authentication.
+
